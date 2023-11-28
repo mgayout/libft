@@ -24,17 +24,17 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		return ;
 	while (s[i])
 	{
-		f(i, &s[i]);
+		f(i, s + i);
 		i++;
 	}
 }
-
+/*
 void	ft_toupper2(unsigned int i, char *s)
 {
-	if (s[i] >= 97 && s[i] <= 122)
-		s[i] -= 32;
+	if (*s >= 97 && *s <= 122)
+		*s -= 32;
 }
-/*
+
 int main (void)
 {
 	char	str1[]="abc";
