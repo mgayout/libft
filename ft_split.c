@@ -13,25 +13,40 @@
 /*Turn a string into ceveral strings seperate by a character.*/
 
 #include "libft.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 //#include <stdio.h>
 
-char	**ft_malloc(char **tab, char const *s, char c, int nbwrd);
+static char	**ft_free(char **tab, int i);
 
-int		ft_countwrd(char const *s, char c);
+int			ft_countwrd(char const *s, char c);
 
 char	**ft_split(char const *s, char c)
 {
 	char		**tab;
 	int			nbwrd;
+	const char	*start;
+	int			i;
 
+	i = 0;
 	if (!s)
 		return (NULL);
 	nbwrd = ft_countwrd(s, c);
 	tab = malloc((nbwrd + 1) * sizeof(char *));
 	if (!tab)
 		return (NULL);
-	return (ft_malloc(tab, s, c, nbwrd));
+	while (i < nbwrd)
+	{
+		while (*s && *s == c)
+			s++;
+		start = s;
+		while (*s && *s != c)
+			s++;
+		tab[i] = ft_substr(start, 0, s - start);
+		if (!tab[i++])
+			return (ft_free(tab, i - 1));
+	}
+	tab[i] = NULL;
+	return (tab);
 }
 
 int	ft_countwrd(char const *s, char c)
@@ -51,47 +66,23 @@ int	ft_countwrd(char const *s, char c)
 	return (i);
 }
 
-char	**ft_malloc(char **tab, char const *s, char c, int nbwrd)
+static char	**ft_free(char **tab, int i)
 {
-	int	i;
-	int	j;
-	int	h;
-
-	i = 0;
-	j = 0;
-	h = 0;
-	while (i < nbwrd)
-	{
-		if ((s[j] == c) || (s[j] == '\0'))
-		{
-			tab[i] = ft_substr(s, h, (j - h) + 1);
-			tab[i][j - h] = '\0';
-			if (tab[i][0] == '\0')
-			{
-				free (tab[i]);
-				i--;
-			}
-			h = j + 1;
-			i++;
-		}
-		j++;
-	}
-	tab[i] = NULL;
-	return (tab);
+	while (tab[--i] && i >= 0)
+		free(tab[i]);
+	free(tab);
+	return (NULL);
 }
 /*
 int main (void)
 {
 	char 	str[]="110010";
 	char 	**copy;
-	char 	c;
 	int		i;
 
-	c = '1';
 	i = 0;
-	copy = ft_split(str, c);
-
-	while (copy[i])
+	copy = ft_split("hello!", ' ');
+	while (copy[i] != NULL)
 	{
 		printf("%s\n", copy[i]);
 		free(copy[i]);
