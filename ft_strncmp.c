@@ -26,17 +26,19 @@ int	ft_strncmp(const char *chn1, const char *chn2, int n)
 		i++;
 	if (n > 0)
 		return ((unsigned char)chn1[i] - (unsigned char)chn2[i]);
+	else if (n < 0)
+		return (-1);
 	else
 		return (0);
 }
 /*
 int main (void)
 {
-    char chn1[]="test";
-    char chn2[]="";
+    char chn1[]="1234";
+    char chn2[]="1235";
     int n;
 
-    n = 1;
+    n = -14651;
 
     printf("%d\n", ft_strncmp(chn1, chn2, n));
     printf("%d\n", strncmp(chn1, chn2, n));
