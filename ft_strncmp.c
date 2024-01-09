@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Compare ascii value of 2 strings.*/
-
-//#include<stdio.h>
-//#include<string.h>
 #include "libft.h"
 
+/*Compare ascii value of 2 strings.*/
 int	ft_strncmp(const char *chn1, const char *chn2, int n)
 {
 	int	i;
@@ -32,6 +29,9 @@ int	ft_strncmp(const char *chn1, const char *chn2, int n)
 		return (0);
 }
 /*
+#include<stdio.h>
+#include<string.h>
+
 int main (void)
 {
     char chn1[]="1234";

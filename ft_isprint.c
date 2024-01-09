@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return 1 if the character is printable.*/
-
-/*#include <stdio.h>*/
 #include "libft.h"
 
+/*Return 1 if the character is printable.*/
 int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
@@ -22,6 +20,8 @@ int	ft_isprint(int c)
 	return (0);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
     char c = '2';

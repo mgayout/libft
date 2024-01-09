@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Write a string.*/
-
 #include "libft.h"
-#include <unistd.h>
 
+/*Write a string.*/
 void	ft_putstr_fd(char *s, int fd)
 {
 	while (*s)

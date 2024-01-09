@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Apply a function into a string.*/
-
 #include "libft.h"
-//#include <stdio.h>
 
+/*Apply a function into a string.*/
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	unsigned int	i;
@@ -29,6 +27,8 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	}
 }
 /*
+#include <stdio.h>
+
 void	ft_toupper2(unsigned int i, char *s)
 {
 	if (*s >= 97 && *s <= 122)

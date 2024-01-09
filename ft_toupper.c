@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*From lowercase to uppercase.*/
-
-//#include<stdio.h>
 #include "libft.h"
 
+/*From lowercase to uppercase.*/
 int	ft_toupper(int c)
 {
 	if (c >= 97 && c <= 122)
@@ -22,6 +20,8 @@ int	ft_toupper(int c)
 	return (c);
 }
 /*
+#include<stdio.h>
+
 int main (void)
 {
     int c;

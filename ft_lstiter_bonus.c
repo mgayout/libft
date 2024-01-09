@@ -10,10 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Apply a function into content of a list.*/
-
 #include "libft.h"
 
+/*Apply a function into content of a list.*/
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	t_list	*iter;

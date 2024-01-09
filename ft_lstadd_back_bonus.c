@@ -10,10 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Add something at the end of the list.*/
-
 #include "libft.h"
 
+/*Add something at the end of the list.*/
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*back;

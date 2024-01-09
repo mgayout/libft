@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Remove character choose at beginning and end of a string.*/
-
 #include "libft.h"
-#include <stdlib.h>
-//#include <stdio.h>
 
+/*Remove character choose at beginning and end of a string.*/
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	*start;
@@ -40,6 +37,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (copy);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
 	char str[]="          ";

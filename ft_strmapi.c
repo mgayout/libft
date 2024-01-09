@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Apply a function into a string.*/
-
 #include "libft.h"
-#include <stdlib.h>
-//#include <stdio.h>
 
+/*Apply a function into a string.*/
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	size_t	i;
@@ -43,6 +40,8 @@ char	ft_toupper2(unsigned int i, char s)
 		return (s - 32);
 	return (str);
 }
+
+#include <stdio.h>
 
 int main (void)
 {

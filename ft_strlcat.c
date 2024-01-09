@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Concat and return the total length of the string they tried to create.*/
-
-//#include<stdio.h>
 #include "libft.h"
 
+/*Concat and return the total length of the string they tried to create.*/
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	size_t	i;
@@ -34,6 +32,8 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	return (i + ft_strlen(src));
 }
 /*
+#include<stdio.h>
+
 int main (void)
 {
 	char str1[]="r";

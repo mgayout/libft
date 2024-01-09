@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Copy and return the total length of the string they tried to create.*/
-
-//#include<stdio.h>
-//#include<string.h>
 #include "libft.h"
 
+/*Copy and return the total length of the string they tried to create.*/
 size_t	ft_strlcpy(char	*dst, const char *src, size_t size)
 {
 	size_t	i;
@@ -41,6 +38,9 @@ size_t	ft_strlcpy(char	*dst, const char *src, size_t size)
 	return (i);
 }
 /*
+#include<stdio.h>
+#include<string.h>
+
 int main(void)
 {
     char str1[]="Azerty";

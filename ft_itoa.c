@@ -10,14 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Turn an "int" into a string.*/
-
 #include "libft.h"
-#include <stdlib.h>
-//#include <stdio.h>
 
 int	ft_countint(int n);
-
+/*Turn an "int" into a string.*/
 char	*ft_itoa(int n)
 {
 	char	*copy;
@@ -60,6 +56,8 @@ int	ft_countint(int n)
 	return (a);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
 	int	n;

@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return 1 if the character is an ascii value.*/
-
-/*#include <stdio.h>*/
 #include "libft.h"
 
+/*Return 1 if the character is an ascii value.*/
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
@@ -22,6 +20,8 @@ int	ft_isascii(int c)
 	return (0);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
     char c = 'z';

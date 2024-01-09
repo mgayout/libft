@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return a string from the character choose to the end.*/
-
-//#include<stdio.h>
-//#include<string.h>
 #include "libft.h"
 
+/*Return a string from the character choose to the end.*/
 char	*ft_strchr(char *str, int c)
 {
 	unsigned int	i;
@@ -32,6 +29,9 @@ char	*ft_strchr(char *str, int c)
 	return (NULL);
 }
 /*
+#include<stdio.h>
+#include<string.h>
+
 int main (void)
 {
     char str[]="ABCDEFGHIJKL";

@@ -10,26 +10,29 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Copy a string with malloc*/
-
-#include <stdlib.h>
-//#include <stdio.h>
 #include "libft.h"
 
+/*Copy a string with malloc*/
 char	*ft_strdup(const char *source)
 {
 	char	*copy;
 	int		i;
 
-	i = (ft_strlen(source) + 1);
-	copy = malloc(i * sizeof(char));
+	i = 0;
+	copy = malloc((ft_strlen(source) + 1) * sizeof(char));
 	if (!copy)
 		return (NULL);
-	ft_strlcpy(copy, source, i);
+	while (source[i])
+	{
+		copy[i] = source[i];
+		i++;
+	}
 	copy[i] = '\0';
 	return (copy);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
 	char str[]="AZERTY";

@@ -10,24 +10,21 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return string size.*/
-
-/*#include <stdio.h>*/
 #include "libft.h"
 
-char	ft_strlen(const char *str)
+/*Return string size.*/
+size_t	ft_strlen(const char *str)
 {
-	char	c;
+	size_t	i;
 
-	c = 0;
-	while (*str)
-	{
-		str++;
-		c++;
-	}
-	return (c);
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
     char str[]="ABCDE";

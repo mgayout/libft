@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Change every character of a string into a zero.*/
-
-//#include<stdio.h>
 #include "libft.h"
 
+/*Change every character of a string into a zero.*/
 void	ft_bzero(void *s, size_t n)
 {
 	unsigned char	*i;
@@ -27,6 +25,8 @@ void	ft_bzero(void *s, size_t n)
 	}
 }
 /*
+#include<stdio.h>
+
 int main(void)
 {
     char str[] = "ABCDE";

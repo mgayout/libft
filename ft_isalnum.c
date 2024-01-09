@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return 1 if the character is alpha or numeric.*/
-
-//#include <stdio.h>
 #include "libft.h"
 
+/*Return 1 if the character is alpha or numeric.*/
 int	ft_isalnum(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')
@@ -23,6 +21,8 @@ int	ft_isalnum(int c)
 	return (0);
 }
 /*
+#include <stdio.h>
+
 int	main(void)
 {
 	char	c;

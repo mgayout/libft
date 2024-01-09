@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Turn a string into an "int".*/
-
-//#include<stdio.h>
-//#include<stdlib.h>
 #include "libft.h"
 
+/*Turn a string into an "int".*/
 int	ft_atoi(const char *str)
 {
 	int	i;
@@ -42,6 +39,8 @@ int	ft_atoi(const char *str)
 	return (result * sign);
 }
 /*
+#include<stdio.h>
+
 int main(void)
 {
     char str[]="            \n   -163864hihbhb";

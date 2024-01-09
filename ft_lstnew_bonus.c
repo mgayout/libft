@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Create a list*/
-
 #include "libft.h"
-#include <stdlib.h>
 
+/*Create a list*/
 t_list	*ft_lstnew(void *content)
 {
 	t_list	*list;

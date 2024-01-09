@@ -10,16 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Turn a string into ceveral strings seperate by a character.*/
-
 #include "libft.h"
-//#include <stdlib.h>
-//#include <stdio.h>
 
 static char	**ft_free(char **tab, int i);
 
 int			ft_countwrd(char const *s, char c);
 
+/*Turn a string into ceveral strings seperate by a character.*/
 char	**ft_split(char const *s, char c)
 {
 	char		**tab;
@@ -74,6 +71,8 @@ static char	**ft_free(char **tab, int i)
 	return (NULL);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
 	char 	str[]="110010";

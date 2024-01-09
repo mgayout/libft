@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include<stdio.h>
-//#include<string.h>
 #include "libft.h"
 
 void	*ft_memcpy(void *dest, void const *src, size_t n)
@@ -29,6 +27,9 @@ void	*ft_memcpy(void *dest, void const *src, size_t n)
 	return (dest);
 }
 /*
+#include<stdio.h>
+#include<string.h>
+
 int main (void)
 {
     char str[]= "ABC";

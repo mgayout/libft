@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*From uppercase to lowercase*/
-
-//#include<stdio.h>
 #include "libft.h"
 
+/*From uppercase to lowercase*/
 int	ft_tolower(int c)
 {
 	if (c >= 65 && c <= 90)
@@ -22,6 +20,8 @@ int	ft_tolower(int c)
 	return (c);
 }
 /*
+#include<stdio.h>
+
 int main (void)
 {
     int c;

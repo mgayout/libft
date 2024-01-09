@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include<stdio.h>
-//#include<string.h>
 #include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
@@ -27,6 +25,9 @@ void	*ft_memset(void *s, int c, size_t n)
 	return (s);
 }
 /*
+#include<stdio.h>
+#include<string.h>
+
 int main(void)
 {
     char str[] ="A54";

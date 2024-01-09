@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return a copy of a list after a function has been applied to it.*/
-
 #include "libft.h"
-#include <stdlib.h>
 
+/*Return a copy of a list after a function has been applied to it.*/
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_list;

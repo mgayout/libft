@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Search little string in big string.*/
-
-//#include<stdio.h>
-//#include<string.h>
 #include "libft.h"
 
+/*Search little string in big string.*/
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
@@ -34,6 +31,9 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	return (NULL);
 }
 /*
+#include<stdio.h>
+#include<string.h>
+
 int main (void)
 {
     char str[]="Bonjour, je m'appelle Maxime.";

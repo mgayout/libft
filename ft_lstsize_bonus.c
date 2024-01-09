@@ -10,10 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return list size.*/
-
 #include "libft.h"
 
+/*Return list size.*/
 int	ft_lstsize(t_list *lst)
 {
 	int	size;

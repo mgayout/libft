@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Write a character.*/
-
 #include "libft.h"
-#include <unistd.h>
 
+/*Write a character.*/
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);

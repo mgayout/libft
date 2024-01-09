@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return a new string, beginning at start index.*/
-
 #include "libft.h"
-#include <stdlib.h>
-//#include <stdio.h>
 
+/*Return a new string, beginning at start index.*/
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*copy;
@@ -33,6 +30,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (copy);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
 	char str[]="AZERTY";

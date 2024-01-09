@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return 1 if the character is numeric.*/
-
-//#include <stdio.h>
 #include "libft.h"
 
+/*Return 1 if the character is numeric.*/
 int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
@@ -22,6 +20,8 @@ int	ft_isdigit(int c)
 	return (0);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
     char c = 'r';

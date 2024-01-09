@@ -14,7 +14,7 @@
 # define LIBFT_H
 
 # include <stdlib.h>
-# include <string.h>
+# include <unistd.h>
 
 typedef struct s_list
 {
@@ -41,7 +41,7 @@ char	*ft_strchr(char *str, int c);
 char	*ft_strdup(const char *source);
 size_t	ft_strlcat(char *dest, const char *src, size_t size);
 size_t	ft_strlcpy(char *dest, const char *src, size_t size);
-char	ft_strlen(const char *str);
+size_t	ft_strlen(const char *str);
 int		ft_strncmp(const char *chn1, const char *chn2, int n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 char	*ft_strrchr(char *str, int c);

@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Turn 2 strings into 1.*/
-
 #include "libft.h"
-#include <stdlib.h>
-//#include <stdio.h>
 
+/*Turn 2 strings into 1.*/
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*copy;
@@ -32,6 +29,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return (copy);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
 	char str1[]="AZE";

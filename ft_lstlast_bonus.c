@@ -10,10 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return a pointer to the last content of the list.*/
-
 #include "libft.h"
 
+/*Return a pointer to the last content of the list.*/
 t_list	*ft_lstlast(t_list *lst)
 {
 	t_list	*last;

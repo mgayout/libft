@@ -10,12 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Bzero + malloc*/
-
-//#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
+/*Bzero + malloc*/
 void	*ft_calloc(size_t elcount, size_t elsize)
 {
 	size_t	size;
@@ -32,6 +29,8 @@ void	*ft_calloc(size_t elcount, size_t elsize)
 	return (ptr);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
 	char	ptr[]="jzbzbmz";

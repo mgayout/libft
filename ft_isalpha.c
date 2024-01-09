@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*Return 1 if the character is alpha.*/
-
-//#include <stdio.h>
 #include "libft.h"
 
+/*Return 1 if the character is alpha.*/
 int	ft_isalpha(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
@@ -22,6 +20,8 @@ int	ft_isalpha(int c)
 	return (0);
 }
 /*
+#include <stdio.h>
+
 int main (void)
 {
     char c = '2';
