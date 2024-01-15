@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-/*Return 1 if the character is printable.*/
+//Return 1 if the character is printable.
 int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)

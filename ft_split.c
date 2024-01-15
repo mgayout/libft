@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 static char	**ft_free(char **tab, int i);
 
@@ -71,6 +72,7 @@ static char	**ft_free(char **tab, int i)
 	return (NULL);
 }
 /*
+#include <stdlib.h>
 #include <stdio.h>
 
 int main (void)

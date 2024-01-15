@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 /*Remove content from pointer to the end.*/
 void	ft_lstclear(t_list **lst, void (*del)(void *))

@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 /*Bzero + malloc*/
 void	*ft_calloc(size_t elcount, size_t elsize)

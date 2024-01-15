@@ -11,8 +11,10 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 int	ft_countint(int n);
+
 /*Turn an "int" into a string.*/
 char	*ft_itoa(int n)
 {

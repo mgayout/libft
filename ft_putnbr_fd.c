@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <unistd.h>
 
 /*Write a number.*/
 void	ft_putnbr_fd(int n, int fd)

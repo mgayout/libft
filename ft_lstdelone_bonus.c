@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 /*Remove 1 content.*/
 void	ft_lstdelone(t_list *lst, void (*del)(void *))

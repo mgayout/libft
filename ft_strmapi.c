@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 /*Apply a function into a string.*/
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
@@ -33,6 +34,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	return (copy);
 }
 /*
+#include <stdio.h>
+
 char	ft_toupper2(unsigned int i, char s)
 {
 	char	str;
@@ -40,8 +43,6 @@ char	ft_toupper2(unsigned int i, char s)
 		return (s - 32);
 	return (str);
 }
-
-#include <stdio.h>
 
 int main (void)
 {

@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 /*Copy a string with malloc*/
 char	*ft_strdup(const char *source)

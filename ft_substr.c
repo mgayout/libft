@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 /*Return a new string, beginning at start index.*/
 char	*ft_substr(char const *s, unsigned int start, size_t len)

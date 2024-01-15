@@ -40,6 +40,7 @@ int	ft_atoi(const char *str)
 }
 /*
 #include<stdio.h>
+#include<stdlib.h>
 
 int main(void)
 {

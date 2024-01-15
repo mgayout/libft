@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 /*Remove character choose at beginning and end of a string.*/
 char	*ft_strtrim(char const *s1, char const *set)

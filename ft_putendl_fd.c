@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <unistd.h>
 
 /*Write a string with a new line at the end.*/
 void	ft_putendl_fd(char *s, int fd)
