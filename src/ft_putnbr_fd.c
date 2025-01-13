@@ -14,23 +14,33 @@
 #include <unistd.h>
 
 /*Write a number.*/
-void	ft_putnbr_fd(int n, int fd)
+int	ft_putnbr_fd(int n, int fd)
 {
-	long int	nb;
+	int			i;
+	int			j;
 
-	nb = n;
-	if (nb < 0)
+	i = 0;
+	j = 0;
+	if (n == -2147483648)
+		return (ft_putstr_fd("-2147483648", fd));
+	else if (n < 0)
 	{
-		ft_putchar_fd('-', fd);
-		nb = -nb;
+		if (ft_putchar_fd('-', fd) == -1)
+			return (-1);
+		n = -n;
+		i++;
 	}
-	if (nb > 9)
+	if (n > 9)
 	{
-		ft_putnbr_fd(nb / 10, fd);
-		ft_putchar_fd((nb % 10) + '0', fd);
+		j = ft_putnbr_fd(n / 10, fd);
+		if (j == -1)
+			return (-1);
+		i += j;
 	}
-	else
-		ft_putchar_fd(nb + '0', fd);
+	if (ft_putchar_fd(n % 10 + '0', fd) == -1)
+		return (-1);
+	i++;
+	return (i);
 }
 /*
 int main (void)
