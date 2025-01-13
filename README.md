@@ -1,4 +1,4 @@
-# FT_PRINTF
+# LIBFT
 
 ## 42 PROJECT
 
