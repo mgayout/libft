@@ -1,6 +1,13 @@
 # <p align="center">LIBFT [Projet 42]</p>
 
-<p align="center"><img src="https://github.com/mgayout/mgayout/blob/main/img/note/125.png"></p>
+<div align="center">
+	<table>
+		<tr><th>NOTE</th>
+		<th></th>ENGLISH VERSION</tr>
+		<tr><th><img src="https://github.com/mgayout/mgayout/blob/main/img/note/125.png"></th>
+		<th></th><img src="https://github.com/mgayout/mgayout/blob/main/img/english.png"></tr>
+	</table>
+</div>
 
 Le projet `LIBFT` est une bibliothèque personnelle regroupant de nombreuses fonctions basiques (en C) permettant la manipulation des chaînes de caractères.
 
@@ -8,18 +15,23 @@ Outre les notions de `bibliothèques`, `archives`, `fichiers objets` et `fichier
 
 ## <p> </p>
 
-## <p>>INSTALLATION</p>
+## <p align="center">INSTALLATION</p>
+
+* Pour télécharger `LIBFT` :
 
 ```shell
 git clone https://github.com/mgayout/libft.git
 ```
-
-Un simple `make` permet la compilation des fonctions de `LIBFT` en fichier archive `libft.a`.
-
-Libre à vous de tester mes fonctions en compilant votre programme avec cette archive.
-
-`make clean` permet de supprimer tout les fichiers objets, nécessaire à la création de l'archive `libft.a`.
-
-`make fclean` reprends le principe de `make clean` en supprimant en plus l'archive `libft.a`.
-
-`make re` reprends le principe de `make fclean` en compilant de nouveau ma librairie.
+<div align="center">
+	<table>
+		<tr><th colspan="2" align="center">Règles</th></tr>
+		<tr><td>make</td>
+		<td>Compilation</td></tr>
+		<tr><td>make clean</td>
+		<td>Suppression des fichiers objets</td></tr>
+		<tr><td>make fclean</td>
+		<td>Suppression des fichiers objets et de l'archive libft.a</td></tr>
+		<tr><td>make re</td>
+		<td>Suppression des fichiers objets et de l'archive libft.a suivit d'une compilation</td></tr>
+	</table>
+</div>
