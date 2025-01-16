@@ -2,12 +2,16 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
-    <p>Le projet `LIBFT` est une bibliothèque personnelle regroupant de nombreuses fonctions basiques (en C) permettant la manipulation des chaînes de caractères.<br />Outre les notions de `bibliothèques`, `archives`, `fichiers objets` et `fichiers hearder`, ce projet nous fait découvrir `les fichiers Mafefile`, `les mallocs` et `les listes`.</p>
+    <p>Le projet <mark>LIBFT</mark> est une bibliothèque personnelle regroupant de nombreuses fonctions basiques (en C) permettant la manipulation des chaînes de caractères.<br />Outre les notions de `bibliothèques`, `archives`, `fichiers objets` et `fichiers hearder`, ce projet nous fait découvrir `les fichiers Mafefile`, `les mallocs` et `les listes`.</p>
   </div>
   <div>
     <img src="https://github.com/mgayout/mgayout/blob/main/img/note/125.png" alt="note" style="height: 100px;">
   </div>
 </div>
+
+Le projet `LIBFT` est une bibliothèque personnelle regroupant de nombreuses fonctions basiques (en C) permettant la manipulation des chaînes de caractères.
+
+Outre les notions de `bibliothèques`, `archives`, `fichiers objets` et `fichiers hearder`, ce projet nous fait découvrir `les fichiers Mafefile`, `les mallocs` et `les listes`. 
 
 # INSTALL
 
