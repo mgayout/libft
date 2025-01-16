@@ -1,12 +1,14 @@
 # <p align="center">LIBFT [Projet 42]</p>
 
-<img src="https://github.com/mgayout/mgayout/blob/main/img/note/125.png" alt="note" style="height: 100px;">
+<p align="center"><img src="https://github.com/mgayout/mgayout/blob/main/img/note/125.png"></p>
 
 Le projet `LIBFT` est une bibliothèque personnelle regroupant de nombreuses fonctions basiques (en C) permettant la manipulation des chaînes de caractères.
 
 Outre les notions de `bibliothèques`, `archives`, `fichiers objets` et `fichiers hearder`, ce projet nous fait découvrir `les fichiers Mafefile`, `les mallocs` et `les listes`. 
 
-# INSTALL
+## <p> </p>
+
+## INSTALL
 
 Un simple `make` permet la compilation des fonctions de `LIBFT` en fichier archive `libft.a`.
 
