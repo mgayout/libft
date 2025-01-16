@@ -3,9 +3,9 @@
 <div align="center">
 	<table>
 		<tr><th>NOTE</th>
-		<th></th>ENGLISH VERSION</tr>
-		<tr><th><img src="https://github.com/mgayout/mgayout/blob/main/img/note/125.png"></th>
-		<th></th><img src="https://github.com/mgayout/mgayout/blob/main/img/english.png"></tr>
+		<th>ENGLISH VERSION</th></tr>
+		<tr><th><img src="https://github.com/mgayout/mgayout/blob/main/img/note/125.png" height="100"></th>
+		<th><img src="https://github.com/mgayout/mgayout/blob/main/img/english.png" height="100"></th></tr>
 	</table>
 </div>
 
