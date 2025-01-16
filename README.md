@@ -5,7 +5,7 @@
 		<tr><th>NOTE</th>
 		<th>ENGLISH VERSION</th></tr>
 		<tr><th><img src="https://github.com/mgayout/mgayout/blob/main/img/note/125.png" height="100"></th>
-		<th><img src="https://github.com/mgayout/mgayout/blob/main/img/english.png" height="100"></th></tr>
+		<th><a href= "https://github.com/mgayout/libft/blob/main/eng/README.md"><img src="https://github.com/mgayout/mgayout/blob/main/img/english.png" height="100"></a></th></tr>
 	</table>
 </div>
 
@@ -25,13 +25,13 @@ git clone https://github.com/mgayout/libft.git
 <div align="center">
 	<table>
 		<tr><th colspan="2" align="center">Règles</th></tr>
-		<tr><td>make</td>
+		<tr><td align="center">make</td>
 		<td>Compilation</td></tr>
-		<tr><td>make clean</td>
+		<tr><td align="center">make clean</td>
 		<td>Suppression des fichiers objets</td></tr>
-		<tr><td>make fclean</td>
+		<tr><td align="center">make fclean</td>
 		<td>Suppression des fichiers objets et de l'archive libft.a</td></tr>
-		<tr><td>make re</td>
-		<td>Suppression des fichiers objets et de l'archive libft.a suivit d'une compilation</td></tr>
+		<tr><td align="center">make re</td>
+		<td>Suppression des fichiers objets et de l'archive suivi d'une compilation</td></tr>
 	</table>
 </div>
