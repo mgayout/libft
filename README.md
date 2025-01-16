@@ -8,7 +8,11 @@ Outre les notions de `bibliothèques`, `archives`, `fichiers objets` et `fichier
 
 ## <p> </p>
 
-## INSTALL
+## <p>>INSTALLATION</p>
+
+```shell
+git clone https://github.com/mgayout/libft.git
+```
 
 Un simple `make` permet la compilation des fonctions de `LIBFT` en fichier archive `libft.a`.
 
