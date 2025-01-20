@@ -11,7 +11,7 @@
 
 The `LIBFT` project is a personal library bringing together many basic functions (in C) allowing the manipulation of character strings.
 
-In addition to the notions of `libraries`, `archives`, `object files` and `hearder files`, this project introduces us to `Mafefile`, `mallocs` and `lists`.
+In addition to the notions of `libraries`, `archives`, `object files` and `hearder files`, this project introduces us to `Makefile`, `mallocs` and `lists`.
 
 ## <p> </p>
 

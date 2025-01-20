@@ -11,7 +11,7 @@
 
 Le projet `LIBFT` est une bibliothèque personnelle regroupant de nombreuses fonctions basiques (en C) permettant la manipulation des chaînes de caractères.
 
-Outre les notions de `bibliothèques`, `archives`, `fichiers objets` et `fichiers hearder`, ce projet nous fait découvrir `les fichiers Mafefile`, `les mallocs` et `les listes`. 
+Outre les notions de `bibliothèques`, `archives`, `fichiers objets` et `fichiers hearder`, ce projet nous fait découvrir `les fichiers Makefile`, `les mallocs` et `les listes`. 
 
 ## <p> </p>
 
